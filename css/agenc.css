@@ -1,0 +1,761 @@
+
+html,body
+{
+	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+*
+{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+hr
+{
+	
+}
+/* navbar */
+.navbar-inverse {
+	background-color: transparent;
+	border: 0;
+}
+.navbar-inverse.shrink
+{
+	background-color: #222222;
+}
+/*on scroll size*/
+.navbar-brand {
+  font-size: 50px;
+  padding-left: 100px;
+  font-family: cursive;
+  font-style: italic;
+}
+/*on shrink*/
+navbar.shrink .navbar-brand {
+  font-size: 25px;
+}
+ /* bran/logo */
+.navbar-inverse .navbar-brand {
+    color:white;
+}
+/*brand/logo on hover and focus css*/
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus 
+{
+	color: #24AE4E;
+}
+/* links of navbar basic css */
+.navbar-inverse .navbar-nav > li > a 
+{
+   color: white;
+	background-color: transparent;
+}
+/*links css on hover and focus*/
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus 
+{
+	color: #24AE4E;
+}
+/* links of navbar basic css */
+nav a 
+{
+	padding-top: 50px !important;
+  	padding-bottom: 50px !important;
+  	font-size: 18px;
+	transition-duration: 0.3s;
+}
+/*links on scroll with shrink class*/
+nav.shrink a {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+  font-size: 18px;
+}
+
+/*shrink height*/
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 10px 10px;
+  margin: 8px px 8px 0;
+}
+/*navbar padding from right*/
+.navbar-nav
+{
+	padding-right: 100px;
+}
+/*css for active link*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus 
+{
+    color: #24AE4E;
+	background-color: transparent;
+	
+}
+/*css for open link */
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+   color: #24AE4E;
+	background-color: transparent;
+}
+
+/* mobile version */
+.navbar-inverse .navbar-toggle {
+	border-color: white
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+      color: #24AE4E;
+	background-color: transparent;
+	
+	
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+   
+}
+/*header background*/
+header
+{
+	background: url('../images/material_dark_green.jpg') center center no-repeat ;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	text-align:center;
+	color:#fff;
+	width: 100%;
+}
+/*texts div*/
+.intro-text
+{
+	padding-top: 200px;
+    padding-bottom: 200px;
+}
+/*welcome to our*/
+.intro-lead-in
+{
+   font-family: "Droid Serif","Helvetica Neue",Arial,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+	display: block;
+	color: white;
+}
+/*its nice to meet you*/
+.intro-heading
+{
+	font-family: sans-serif;
+	color: white;
+	font-size: 75px;
+	display:block;
+	font-weight: bold;
+	text-transform:uppercase;
+	
+}
+/*tell me more custome button*/
+.btn-xl
+{
+	padding: 15px 60px 15px 60px;
+	font-size: 22px;
+	opacity: 1;
+	background-color:#24AE4E;
+}
+/*Custom XL button on hover*/
+.btn-xl:hover
+{
+	padding: 15px 60px 15px 60px;
+	font-size: 22px;
+	background-color:#1A8138;
+}
+
+/*css for all sections*/
+section
+{
+	    padding: 150px 0;
+	background-color: white;
+	color: black;
+}
+/*css for all sections main headings*/
+.section-heading
+{
+	font-family: 'cursive',sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+/*sub headings for services section*/
+.services-heading
+{
+	font-family: "Roboto Slab",Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.services
+{
+	text-align: center;
+}
+
+.glyphicon-ring {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 4px solid white;
+  color: white;
+  display: inline-table;
+  text-align: center;
+}
+/**CSS FOR ICON WITH NO BACKGROUND COLOR**/
+
+.glyphicon-ring .glyphicon-bordered {
+  font-size: 40px;
+  vertical-align: middle;
+  display: table-cell;
+}
+/**WITH AN ADDED BACKGROUND COLOR**/
+
+
+.glyphicon-orange {
+  background:  #24AE4E;
+	border-color: #F1F1F1;
+  color: white;
+}
+.text-center
+{
+	padding: 50px;
+}
+/*portfolio section*/
+.portfolio
+{
+	text-align: center;
+	background-color: #eee;
+}
+/*gallery css*/
+img
+{
+	height: 400px;
+	width: 100%;
+}
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+	margin-top: 50px;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(36,171,76,0.6);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translate(460px, -100px) rotate(180deg);
+  -ms-transform: translate(460px, -100px) rotate(180deg);
+  transform: translate(460px, -100px) rotate(180deg);
+  -webkit-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  width: 400px;
+	height: 300px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0px 5px #24AE4E;
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+/*about section*/
+  .timeline {
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+  }
+  .timeline>li {
+    display:flex;
+    padding:1em;
+    box-sizing:border-box;
+	  
+  }
+  .timeline>li.timeline-inverted{
+   flex-flow: row-reverse;
+  }
+  
+  .timeline-panel {
+   width: 38%;
+	  position: absolute;
+	  text-align: right;
+	
+  }
+.timeline-inverted .timeline-panel {
+   text-align: left;
+	
+	
+  }
+.timeline>li img {
+     width: 180px;
+    height: 180px;
+    z-index: 100;
+	position: relative;
+    background-color: #fed136;
+    color: #fff;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+    text-align: center;
+}
+img
+{
+	border: 0;
+}
+
+.timeline>li:last-child .timeline-image{
+   width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #F1F1F1;
+	background: #24AE4E;
+	position: relative;
+}
+.timeline>li:last-child h4
+{ 
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+  .timeline> li + li {
+    margin-top:100px;
+  }
+
+  .timeline:before {
+    
+    content:'';
+    background:gray;
+    width:4px;top:188px;
+    bottom:50px;
+    left:50%;
+    background-color:#F1F1F1;
+    position:absolute;
+  }
+/*team section*/
+#team
+{
+	background: #F1F1F1;
+	padding: 100px;
+}
+.team-member img
+{
+	border: 7px solid #fff;
+	width: 75%;
+	height: 75%;
+}
+.team-member
+{
+	text-align: center;
+	
+}
+/*fonts link*/
+.social-buttons li a
+{
+	display: inline-block;
+	font-size: 24px;
+	border-radius: 50%;
+	color: white;
+	height: 50px;
+	width: 50px;
+	background:#000;
+	line-height: 45px;
+	border: 2px solid #fff;
+	transition: all 0.4s;
+}
+.social-buttons li a:hover
+{
+	background: #24AE4E;
+}
+section.sponsers
+{
+	padding: 30px;
+}
+.sponsers img
+{
+	width: 200px;
+	height: 60px;
+	text-align: center;
+}
+/*contaxt us section*/
+.contact-us
+{
+	background: url('../images/world-map-wallpaper-11.jpg') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.contact-form
+{
+	padding-top: 150px
+}
+.form-control.input-lg
+{
+height:66px;
+}
+/*footer*/
+footer
+{
+	
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	padding: 20px;
+}
+footer .list-inline
+{
+	margin-left: 0;
+	margin-bottom: 0
+}
+span.copyright
+{
+	line-height: 55px;
+	text-transform: none;
+}
+.list-inline-links li
+{
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 20px;
+}
+.list-inline-links li a
+{
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	font-size: 15px;
+	color: #24AE4E;
+	margin: 10px;
+}
+.back-to-top
+{
+	position: absolute;
+	left: 95%;
+	top: 90%;
+	position: fixed;
+	padding: 10px;
+	border-radius: 10%;
+	border: 2px solid #24AE4E;
+	color: #24AE4E;
+	font-weight: bold;
+}
+.back-to-top:hover,
+.back-to-top:focus
+{
+	background: #24AE4E;
+	text-decoration: none;
+	color: white;
+	border: 2px solid #24AE4E;
+	
+}
+@media (max-width:767px)
+{	
+	/* links of navbar basic css */
+	.navbar a 
+	{
+		padding-top: 12px !important;
+		padding-bottom: 0px !important;
+		font-size: 12px;
+		transition-duration: 0.4s;
+	}
+	/*links on scroll with shrink class*/
+	.navbar.shrink  a {
+	   padding: 12px !important;
+	  padding-bottom: 0px !important;
+	  font-size: 12px;
+	  transition-duration: 0.4s;
+	}
+	.shrink
+	{
+		height: 52px;
+	}
+	/*navbar padding from right*/
+	.navbar-nav,
+	.navbar-collapse,
+	.navbar-collapse.in {
+		width: 250px;
+		margin: 0 0;
+		padding-right: 0px;
+		float: right;
+		border: 0;
+		text-align: center;
+    }
+	/*navbar header/brand before shrink*/
+	.navbar-header .navbar-brand
+	{
+    	margin-left:10px;
+		font-size: 12px;
+		color: white;
+		font-family: cursive;
+	}
+	.navbar-header .navbar-brand:hover
+	{
+    	margin-left: 0;
+		margin-bottom: 0;
+		font-size: 20px;
+		color: white;
+		font-family: cursive;
+	}
+	
+	/* links of navbar basic css */
+	.navbar-inverse .navbar-nav > li > a 
+	{
+		color: white;
+		background-color: #222222;
+		
+	}
+	.navbar-inverse .navbar-nav > li > a:hover
+	{
+		color: #24AE4E;
+		background-color:#222222;
+	}
+	.navbar-inverse.shrink .navbar-nav > li > a 
+	{
+		background-color: #222222;
+	}
+	.navbar-inverse.shrink .navbar-nav > li > a:hover
+	{
+		color: #24AE4E;
+		background-color:white;
+	}
+	/*css for active link*/
+	.navbar-inverse .navbar-nav > .active > a,
+	.navbar-inverse .navbar-nav > .active > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:focus 
+	{
+		color: #24AE4E;
+		background-color: transparent;
+
+	}
+	/*css for open link */
+	.navbar-inverse .navbar-nav > .open > a, 
+	.navbar-inverse .navbar-nav > .open > a:hover, 
+	.navbar-inverse .navbar-nav > .open > a:focus {
+	   color: #24AE4E;
+		background-color: transparent;
+	}
+	/*contact-us*/
+	.form-control.input-lg
+	{
+		height:40px;
+	}
+	.contact-form textarea
+	{
+		margin-top: 20px;	
+	}
+	/*header*/
+	header
+	{
+		background: #333;
+	}
+	/*texts div*/
+	.intro-text
+	{
+		padding: 50px 0px;
+	}
+	/*welcome to our*/
+	.intro-lead-in
+	{
+	   font-family: "Droid Serif","Helvetica Neue",Arial,sans-serif;
+		font-style: italic;
+		font-size: 16px;
+		margin-bottom: 25px;
+		color: white;
+	}
+	/*its nice to meet you*/
+	.intro-heading
+	{
+		font-family: sans-serif;
+		color: white;
+		font-size: 20px;
+		display:block;
+		font-weight: bold;
+		text-transform:uppercase;
+
+	}
+	/*tell me more custome button*/
+	.btn-xl
+	{
+		padding: 5px 5px 5px 5px;
+		font-size: 14px;
+		width: 50%;
+		opacity: 1;
+		background-color:#24AE4E;
+	}
+	/*Custom XL button on hover*/
+	.btn-xl:hover
+	{
+		padding: 5px 5px 5px 5px;
+		font-size: 14px;
+		width: 50%;
+		background-color:#1A8138;
+	}
+	/*css for all sections*/
+	section
+	{
+		padding: 15px 15px;
+		background-color: white;
+		color: black;
+	}
+	/*css for all sections main headings*/
+	.section-heading
+	{
+		font-family: 'cursive',sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+	}
+	.services h4.text-muted
+	{
+		font-family: 'cursive',sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+	}
+	/*sub headings for services section*/
+	.services-heading
+	{
+		font-family: "Roboto Slab",Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		font-weight: bolder;
+	}
+	.services
+	{
+		text-align: center;
+	}
+	.services p
+	{
+		text-align: center;
+		font-size: 12px;
+	}
+	.glyphicon-ring {
+	  width: 50px;
+	  height: 50px;
+	  border-radius: 50%;
+	  border: 4px solid white;
+	  color: white;
+	  display: inline-table;
+	  text-align: center;
+	}
+	/**CSS FOR ICON WITH NO BACKGROUND COLOR**/
+
+	.glyphicon-ring .glyphicon-bordered {
+	  font-size: 20px;
+	  vertical-align: middle;
+	  display: table-cell;
+	}
+	/**WITH AN ADDED BACKGROUND COLOR**/
+
+
+	.glyphicon-orange {
+	  background:  #24AE4E;
+		border-color: #F1F1F1;
+	  color: white;
+	}
+	.text-center
+	{
+		padding: 5px;
+	}
+	/*portfolio section*/
+	.portfolio h4
+	{
+		font-family: 'cursive',sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+	}
+	.portfolio
+	{
+		text-align: center;
+		background-color: #eee;
+	}
+	/*about section*/
+	
+}
+
+@media (min-width:992px)
+{
+	
+}
+@media (min-width:1200px)
+{
+	
+	
+	
+}
+
